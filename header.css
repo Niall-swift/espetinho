@@ -1,0 +1,16 @@
+header{
+    width: 98vw;
+    height: 10vh;
+    margin-left: .5rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0.658);
+    backdrop-filter: saturate(450%) blur(30px);
+  -webkit-backdrop-filter: saturate(450%) blur(30px);
+}
+
+.saidebar{
+    width: 50px;
+    background: black;
+}
