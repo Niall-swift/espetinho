@@ -1,7 +1,7 @@
 
 #slider {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
 
     position: relative;
      display: flex;
@@ -15,8 +15,8 @@
     position: absolute;
     border-radius: 30px;
 
-    width: 95vw;
-    height: 95vh;
+    width: 25rem;
+    height: 20rem;
 
     object-fit: cover;
 
