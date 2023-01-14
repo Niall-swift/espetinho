@@ -6,11 +6,11 @@
     #slider{
         justify-content: center;
         align-items: center;
-        width: 100%;
+        width: 100vw;
         height: 50vh;
     }
     #slider img{
-        width: 25rem;
+        width: 100vw;
         height: 20rem;
     }
     .card{
