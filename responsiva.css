@@ -13,8 +13,14 @@
         width: 100vw;
         height: 20rem;
     }
+    #page1{
+        width: 100vw;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: ;
+    }
+    
     .card{
-        grid-column: 1/1;
+        grid-column: 0/1;
         width: 420px;
         height: 480px;
     }
