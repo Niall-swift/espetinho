@@ -1,4 +1,8 @@
 @media screen and (min-width: 320px){
+     body{
+        width: 320px;
+        height: 480px;
+    }
     #slider{
         justify-content: center;
         align-items: center;
