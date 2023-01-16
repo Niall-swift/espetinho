@@ -1,7 +1,6 @@
-@media screen and (min-width: 320px){
-     body{
-        width: 320px;
-        height: 480px;
+@media screen and (min-width: 0px){
+    body{
+       
     }
     #slider{
         justify-content: center;
@@ -14,13 +13,17 @@
         height: 20rem;
     }
     #page1{
-        width: 100vw;
-        grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-rows: ;
+        grid-template-columns: repeat(auto-fit, nimax(200px, 1fr));
     }
     
     .card{
-        grid-column: 0/1;
+        width: 420px;
+        height: 480px;
+    }
+    #page2{
+        grid-template-columns: repeat(auto-fit, nimax(200px, 1fr));
+    }
+    .card1{
         width: 420px;
         height: 480px;
     }
